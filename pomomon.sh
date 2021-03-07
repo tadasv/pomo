@@ -3,6 +3,10 @@
 # pomo status monitor. Sends notification and stops the timer once the end is
 # reached.
 
+# If on Mac OS, place ./pomomon.plist in ~/Library/LaunchAgents/
+# and run launchctl load ~/Library/LaunchAgents/pomomon.plist
+# Make sure that pomo is in the path.
+
 os=$(uname)
 
 while true ; do

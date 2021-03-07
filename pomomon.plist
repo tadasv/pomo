@@ -1,0 +1,10 @@
+<plist version="1.0">
+ <dict>
+   <key>Label</key>
+   <string>pomomon</string>
+   <key>RunAtLoad</key>
+   <true />
+   <key>Program</key>
+   <string>/Users/tadas/bin/pomomon.sh</string>
+  </dict>
+</plist>
